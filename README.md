@@ -1,6 +1,6 @@
 # my-simple-app
 
-1. Repository Structure
+1. Repository Structure.
 ```
 my-simple-app/
 ├── .github/
