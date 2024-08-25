@@ -25,5 +25,8 @@ jobs:
       - name: Run Docker container
         run: docker run -d -p 8080:8080 my-simple-app
 
+      - name: Wait for the application to start
+        run: sleep 10
+
       - name: Test containerized application
-        run: curl http://localhost:8080
+        run: curl -v http://localhost:8080
